@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>First user</title>
+    <title>Kostya Lelikov</title>
     <link rel="stylesheet" href="../stylesheets/styles.css">
     <link rel="stylesheet" href="../stylesheets/normalize.css">
+    <link rel="stylesheet" href="../stylesheets/menu.css">
+    <link rel="stylesheet" href="../stylesheets/users.css">
 </head>
 <body>
     <nav>
-        <ul class="navigation-list">
-            <li><img src="../images/logo.jpg" class="logo" alt=""></li>
-            <li class="navigation-item"><a href="../index.html">Home</a></li>
-            <li class="navigation-item"><a href="../about.html">About</a></li>
-            <li class="navigation-item"><a href="../users.html">Users</a></li>
-            <li class="navigation-item"><a href="../models.html">3D Models</a></li>
+        <ul class="menu">
+            <li class="menu__menu-item"><a href="../index.html">Home</a></li>
+            <li class="menu__menu-item"><a href="../about.html">About</a></li>
+            <li class="menu__menu-item"><a href="../users.html">Users</a></li>
+            <li class="menu__menu-item"><a href="../models.html">3D Models</a></li>
         </ul>
     </nav>
 
     <main>
-        <img src="../images/users/1.jpg" class="user-avatar" />
-        <h1 class="user-fullname">Kostya Lelikov</h1>
-        <div class="user-login">(kostia) 2019-09-05 19:34</div>
-        <p class="user-bio">...</p>
+        <div class="user-profile">
+            <section>
+                <div class="user-avatar">
+                    <img src="../images/users/1.jpg" alt="avatar"/>
+                </div>
+            </section>
+
+            <section>
+                <div class="user-info">
+                    <span class="user-info__fullname">Kostya Lelikov</span>
+                    <span class="user-info__login">@lelikovkostia</span>
+                </div>
+            </section>
+
+            <section>
+                <p class="user-info__bio">...</p>
+            </section>
+        </div>
     </main>
 </body>
 </html>

@@ -26,3 +26,39 @@
     background-color: var(--color-red);
     color: var(--color-white);
 }
+
+.user-avatar {
+    --avatar-size: 240px;
+
+    max-width: var(--avatar-size);
+    min-width: var(--avatar-size);
+    max-height: var(--avatar-size);
+    min-height: var(--avatar-size);
+
+    border: 5px solid var(--color-red);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: calc(var(--avatar-size) / -2);
+    margin: calc(var(--avatar-size) / 2) auto calc(var(--avatar-size) / -2) auto;
+}
+
+.user-avatar img {
+    width: 100%;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-info__fullname {
+    margin-top: 18px;
+    font-size: 2em;
+    color: var(--color-red);
+}
+
+.user-info__login {
+    color: var(--color-light-gray);
+}

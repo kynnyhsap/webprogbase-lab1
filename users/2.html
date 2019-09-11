@@ -2,26 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Second user</title>
+    <title>Kostya Lelikov</title>
     <link rel="stylesheet" href="../stylesheets/styles.css">
     <link rel="stylesheet" href="../stylesheets/normalize.css">
+    <link rel="stylesheet" href="../stylesheets/menu.css">
+    <link rel="stylesheet" href="../stylesheets/users.css">
 </head>
 <body>
-    <nav>
-        <ul class="navigation-list">
-            <li><img src="../images/logo.jpg" class="logo" alt=""></li>
-            <li class="navigation-item"><a href="../index.html">Home</a></li>
-            <li class="navigation-item"><a href="../about.html">About</a></li>
-            <li class="navigation-item"><a href="../users.html">Users</a></li>
-            <li class="navigation-item"><a href="../models.html">3D Models</a></li>
-        </ul>
-    </nav>
+<nav>
+    <ul class="menu">
+        <li class="menu__menu-item"><a href="../index.html">Home</a></li>
+        <li class="menu__menu-item"><a href="../about.html">About</a></li>
+        <li class="menu__menu-item"><a href="../users.html">Users</a></li>
+        <li class="menu__menu-item"><a href="../models.html">3D Models</a></li>
+    </ul>
+</nav>
 
-    <main>
-        <img src="../images/users/2.jpg" class=".user-avatar" />
-        <h1 class=".user-fullname">Danylo Kazimirov</h1>
-        <div class=".user-login">(itszulus) 2019-09-04 14:02</div>
-        <p class=".user-bio">...</p>
-    </main>
+<main>
+    <div class="user-profile">
+        <section>
+            <div class="user-avatar">
+                <img src="../images/users/2.jpg" alt="avatar"/>
+            </div>
+        </section>
+
+        <section>
+            <div class="user-info">
+                <span class="user-info__fullname">Danylo Kazimirov</span>
+                <span class="user-info__login">@itszulus</span>
+            </div>
+        </section>
+
+        <section>
+            <p class="user-info__bio">...</p>
+        </section>
+    </div>
+</main>
 </body>
 </html>
+

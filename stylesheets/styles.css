@@ -16,14 +16,17 @@ nav {
     margin: auto;
 }
 
-main {
+.content-container {
     max-width: 960px;
     margin: 36px auto;
+}
+
+.content {
     background-color: var(--color-white);
     border-radius: 3px;
 }
 
-main p {
+.content p {
     padding: 36px 36px;
     font-size: 1.5em;
     color: var(--color-gray);

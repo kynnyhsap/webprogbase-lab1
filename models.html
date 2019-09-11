@@ -1,28 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3D Models</title>
+    <title>Models</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/menu.css">
     <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/models.css">
 </head>
 <body>
     <nav>
-        <ul class="navigation-list">
-            <li><img src="images/logo.jpg" class="logo" alt="logo"></li>
-            <li class="navigation-item"><a href="index.html">Home</a></li>
-            <li class="navigation-item"><a href="about.html">About</a></li>
-            <li class="navigation-item"><a href="users.html">Users</a></li>
-            <li class="navigation-item"><a href="models.html" class="active">3D Models</a></li>
+        <ul class="menu">
+            <li class="menu__menu-item"><a href="index.html">Home</a></li>
+            <li class="menu__menu-item"><a href="about.html">About</a></li>
+            <li class="menu__menu-item"><a href="users.html">Users</a></li>
+            <li class="menu__menu-item menu__menu-item--active"><a href="models.html">3D Models</a></li>
         </ul>
     </nav>
 
-    <main>
-        <ul>
-            <li>Model #1: <a href="models/1.html">Some</a></li>
-            <li>Model #2: <a href="models/2.html">Two</a></li>
-            <li>Model #3: <a href="models/3.html">Other</a></li>
-        </ul>
+    <main class="content-container">
+        <div class="model-cards">
+            <div class="model-card">
+                <div class="model-card__cover">
+                    <img src="images/models/1.jpg" alt="cover">
+                </div>
+
+                <div class="model-card__container">
+                    <a class="model-card-title" href="models/1.html">Megumin</a>
+
+                    <div class="model-card-likes">
+                        <span class="model-card-likes__count">123 ♡</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <div class="model-card__cover">
+                    <img src="images/models/2.png" alt="cover">
+                </div>
+
+                <div class="model-card__container">
+                    <a class="model-card-title" href="models/2.html">Chinosuke</a>
+
+                    <div class="model-card-likes">
+                        <span class="model-card-likes__count">728 ♡</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <div class="model-card__cover">
+                    <img src="images/models/3.png" alt="cover">
+                </div>
+
+                <div class="model-card__container">
+                    <a class="model-card-title" href="models/3.html">Rem</a>
+
+                    <div class="model-card-likes">
+                        <span class="model-card-likes__count">7892 ♡</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

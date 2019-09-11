@@ -1,0 +1,28 @@
+.users-table {
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.users-table th, td {
+    text-align: left;
+    padding: 18px;
+}
+
+.users-table tr:nth-child(odd){
+    background-color: var(--color-light-gray)
+}
+
+/*.users-table tr:nth-child(odd):hover {*/
+/*    background-color: var(--color-gray)*/
+/*}*/
+
+/*.users-table tr:nth-child(even):hover {*/
+/*    background-color: var(--color-gray)*/
+/*}*/
+
+.users-table th {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}

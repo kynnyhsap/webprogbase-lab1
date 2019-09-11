@@ -5,24 +5,27 @@
     <title>Users</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/menu.css">
+    <link rel="stylesheet" href="stylesheets/users.css">
 </head>
 <body>
     <nav>
-        <ul class="navigation-list">
-            <li><img src="images/logo.jpg" class="logo" alt=""></li>
-            <li class="navigation-item"><a href="index.html">Home</a></li>
-            <li class="navigation-item"><a href="about.html">About</a></li>
-            <li class="navigation-item"><a href="users.html" class="active">Users</a></li>
-            <li class="navigation-item"><a href="models.html">3D Models</a></li>
+        <ul class="menu">
+            <li class="menu__menu-item"><a href="index.html">Home</a></li>
+            <li class="menu__menu-item"><a href="about.html">About</a></li>
+            <li class="menu__menu-item menu__menu-item--active"><a href="users.html">Users</a></li>
+            <li class="menu__menu-item"><a href="models.html">3D Models</a></li>
         </ul>
+
+        <h1>Users.</h1>
     </nav>
 
     <main>
-        <table>
+        <table class="users-table">
             <tr>
-                <td>Login</td>
-                <td>Full name</td>
-                <td>Registration date</td>
+                <th>Login</th>
+                <th>Full name</th>
+                <th>Registration date</th>
             </tr>
 
             <tr>

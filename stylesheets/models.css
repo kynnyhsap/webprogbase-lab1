@@ -58,3 +58,32 @@
     cursor: pointer;
     color: var(--color-red);
 }
+
+.model-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.model-preview-image {
+    width: 480px;
+    margin: 36px auto;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.3);
+}
+
+.model-preview-image img {
+    width: 100%;
+}
+
+.model-title {
+    text-align: center;
+    font-size: 2.6em;
+    color: var(--color-red);
+    transition: all 1s;
+}
+
+.content-container > section {
+    padding: 36px 36px;
+}

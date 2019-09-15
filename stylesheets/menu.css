@@ -10,7 +10,18 @@
 }
 
 .menu__menu-item {
+    max-height: 50px;
+}
 
+.menu__menu-item--logo {
+    width: 144px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.menu__menu-item--logo img {
+    height: 100%;
 }
 
 .menu__menu-item a {
